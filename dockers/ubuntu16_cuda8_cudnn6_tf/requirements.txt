@@ -1,0 +1,13 @@
+h5py
+numpy
+pandas
+Pillow
+matplotlib
+scikit-image
+scikit-learn
+scipy
+six
+shapely
+tifffile
+tensorflow-gpu
+tensorflow-tensorboard
