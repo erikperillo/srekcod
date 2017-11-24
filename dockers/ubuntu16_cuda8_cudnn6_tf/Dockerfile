@@ -33,9 +33,7 @@ RUN apt-get update && apt-get install -y \
 		libtiff5-dev \
 		libwebp-dev \
 		libzmq3-dev \
-		nano \
 		pkg-config \
-		python-dev \
 		software-properties-common \
 		unzip \
 		vim \
@@ -66,15 +64,9 @@ RUN apt-get update && apt-get install -y \
 		libxine2-dev \
 		libtbb-dev \
 		libeigen3-dev \
-		python-dev \
-		python-tk \
-		python-numpy \
+        python3 \
 		python3-dev \
-		python3-tk \
-		python3-numpy \
 		ant \
-		default-jdk \
-		doxygen \
 		&& \
 	apt-get clean && \
 	apt-get autoremove && \
